@@ -1,0 +1,34 @@
+.projects-container {
+  padding: 20px;
+}
+
+.projects-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.project-card {
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .projects-list {
+    display: block;
+  }
+
+  .project-card {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+/* Reset default margin and padding for the whole page */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container styles */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    padding: 20px;
+  }
+
+  

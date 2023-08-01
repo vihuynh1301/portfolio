@@ -1,0 +1,81 @@
+/* Reset default margin and padding for the whole page */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container styles */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* Contact form styles */
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
